@@ -2,6 +2,8 @@ import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 
+//navbar
+
 const CinerateNavbar = () => {
   const { user, logout } = useAuth();
   const navigate = useNavigate();
