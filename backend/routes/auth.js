@@ -34,6 +34,8 @@ router.get("/validate", auth, async (req, res) => {
   }
 });
 
+//register
+
 router.post(
   "/register",
   [
